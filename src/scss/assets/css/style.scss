@@ -30,7 +30,7 @@ main {
   }
 
   .is-active & {
-    animation: roundImg 3s cubic-bezier(0.8, 0, 0.15, 1) forwards;
+    animation: roundImg 3s cubic-bezier(0.8, 0, 0.2, 1) forwards;
   }
 }
 
@@ -38,6 +38,10 @@ main {
   0% {
     border-radius: 0 0 100px 0;
     width: 0;
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
   }
   80% {
     border-radius: 0 0 100px 0;
