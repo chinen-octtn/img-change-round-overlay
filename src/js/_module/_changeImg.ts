@@ -1,14 +1,13 @@
 export function changeImg() {
-  // 画像切り替え部分の要素を取得する
-  const imgGroup = document.querySelector('#js-group')
+  // 3秒ごとに画像を切り替える
 
-  // 切り替え対象の要素の数を取得する
-  const img = imgGroup?.querySelectorAll('.js-img')
-  const count = Number(img?.length)
-  let index = 1
+  // 切り替える要素の数を取得する
+  const img = document.querySelectorAll('.js-img')
+  const count: number = Number(img?.length)
+  let index: number = 1
 
   // 3秒ごとにclassを切り替える
-  const timer = setInterval(() => {
+  setInterval(() => {
     // 一旦classをはずす
     img?.forEach((element) => element.classList.remove('is-active'))
 
