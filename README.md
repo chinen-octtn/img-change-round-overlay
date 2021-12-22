@@ -2,6 +2,8 @@
 
 画像が重なって切り替わるアニメーションのサンプルです。
 
+https://chinen-octtn.github.io/img-change-round-overlay/
+
 ## ローカル開発時の動作確認済み環境
 
 - macOS Big Sur 11.6.1
