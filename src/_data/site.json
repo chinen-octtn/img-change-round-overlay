@@ -1,0 +1,22 @@
+{
+  "url": "https://example.com",
+  "name": "画像切り替えサンプル",
+  "viewport": "width=device-width",
+  "description": "画像が重なって切り替わるアニメーションのサンプル",
+  "keywords": "",
+  "lang": "ja",
+  "locale": "ja_JP",
+  "siteImage": "/ogp.png",
+  "fbAppId": "",
+  "fbAdmins": "",
+  "twitterCard": "summary_large_image",
+  "twitterSite": "",
+  "/": {
+    "name": "画像切り替えサンプル",
+    "description": "画像が重なって切り替わるアニメーションのサンプル",
+    "keywords": "",
+    "ogp": "",
+    "canonical": "",
+    "alternate": ""
+  }
+}
