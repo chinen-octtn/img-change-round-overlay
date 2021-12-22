@@ -1,3 +1,3 @@
-import { hello } from '../../_module/_hello'
+import { changeImg } from '../../_module/_changeImg'
 
-hello('Hello World')
+changeImg()
