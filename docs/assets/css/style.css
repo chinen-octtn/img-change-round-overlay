@@ -188,6 +188,14 @@ h1 {
   font-size: 3rem;
 }
 
+h1 {
+  margin-bottom: 1em;
+}
+
+main {
+  padding: 1em;
+}
+
 .img-change {
   display: none;
   background-size: 100% auto;

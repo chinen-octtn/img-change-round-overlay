@@ -1,6 +1,14 @@
 @use '/_foundation/*';
 @use '/_component/*';
 
+h1 {
+  margin-bottom: 1em;
+}
+
+main {
+  padding: 1em;
+}
+
 .img-change {
   display: none;
   background-size: 100% auto;
